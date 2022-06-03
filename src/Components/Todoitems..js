@@ -14,7 +14,12 @@ const Todoitems = (props) => {
                 }}
               ></i>
 
-              <i className="fas fa-edit"></i>
+              <i
+                className="fas fa-edit"
+                onClick={() => {
+                  props.handleedit(props.id);
+                }}
+              ></i>
             </div>
 
             <h5 className="card-title">{props.element.title}</h5>

@@ -13,6 +13,7 @@ const Todoitem = (props) => {
             id={index}
             key={element.id}
             onclick={props.onclick}
+            handleedit={props.handleedit}
           />
         );
       })}

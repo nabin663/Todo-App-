@@ -41,3 +41,6 @@
   background-color: lightgrey;
 
 }
+#button, #button2 {
+  display: none;
+}
